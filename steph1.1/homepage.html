@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to the Anime World!">
+    <title>Anime World - Home</title>
+    <style>
+        /* Reset margins and padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Basic styling for the page */
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #ececec;
+            background-image: url('https://example.com/anime-background.jpg'); /* Replace with actual anime-themed background */
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.6);
+            text-align: center;
+            padding: 40px 20px;
+            border-bottom: 2px solid #f39c12;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            font-family: 'Comic Sans MS', sans-serif;
+            color: #f39c12;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+            font-family: 'Courier New', monospace;
+        }
+
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        nav a {
+            color: #fff;
+            padding: 14px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-family: 'Arial', sans-serif;
+            font-size: 1.1rem;
+        }
+
+        nav a:hover {
+            background-color: #f39c12;
+            color: black;
+        }
+
+        main {
+            background-color: rgba(0, 0, 0, 0.5);
+            margin: 20px;
+            padding: 20px;
+            border-radius: 15px;
+        }
+
+        main h2 {
+            color: #f39c12;
+            font-size: 2rem;
+            font-family: 'Comic Sans MS', sans-serif;
+        }
+
+        main p {
+            font-size: 1.1rem;
+            margin-top: 15px;
+        }
+
+        main ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        main ul li {
+            font-size: 1.2rem;
+            margin: 10px 0;
+        }
+
+        footer {
+            background-color: rgba(0, 0, 0, 0.7);
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            font-family: 'Courier New', monospace;
+        }
+
+        /* Custom Anime Button */
+        .anime-button {
+            background-color: #f39c12;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            font-size: 1.1rem;
+            cursor: pointer;
+            border-radius: 8px;
+            transition: background-color 0.3s ease;
+        }
+
+        .anime-button:hover {
+            background-color: #ff7f00;
+        }
+
+        /* Styling for a floating anime character (optional) */
+        .anime-character {
+            position: absolute;
+            bottom: 30px;
+            right: 30px;
+            width: 150px;
+            animation: float 5s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-20px);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to Anime World!</h1>
+        <p>Explore your favorite anime characters and stories!</p>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <a href="#">Home</a>
+        <a href="list.html">Anime List</a>
+    </nav>
+
+    <!-- Main Content Section -->
+    <main>
+        <h2>About Us</h2>
+        <p>Welcome to Anime World, the ultimate destination for all anime fans! We offer a wide variety of anime-related content, from in-depth character analysis to the latest news and trends in the anime universe.</p>
+
+        <h3>Our Services</h3>
+        <ul>
+            <li>Anime Reviews & Recommendations</li>
+            <li>Character Profiles</li>
+            <li>Anime Merchandise</li>
+            <li>Fan Art Gallery</li>
+        </ul>
+
+        <button class="anime-button">Join the Anime Community</button>
+    </main>
+
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Anime World. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>

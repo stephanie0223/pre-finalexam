@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore Popular Anime Shows">
+    <title>Anime List - Explore Your Favorite Anime!</title>
+    <style>
+        /* Reset margins and padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Basic body and font styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #ececec;
+            color: #333;
+        }
+
+        /* Header styling */
+        header {
+            background-color: #2C3E50;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            font-family: 'Comic Sans MS', sans-serif;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+
+        header p {
+            font-size: 1.2rem;
+        }
+
+        /* Navigation Bar */
+        nav {
+            background-color: #34495E;
+            overflow: hidden;
+        }
+
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-align: center;
+            text-decoration: none;
+            float: left;
+            font-size: 1rem;
+        }
+
+        nav a:hover {
+            background-color: #f39c12;
+        }
+
+        /* Main Content Styling */
+        main {
+            padding: 20px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #f39c12;
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        /* Anime List Styling */
+        .anime-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .anime-item {
+            background-color: #2C3E50;
+            color: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .anime-item h3 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        .anime-item p {
+            font-size: 1rem;
+            margin-bottom: 10px;
+        }
+
+        .anime-item a {
+            text-decoration: none;
+            color: #f39c12;
+            font-weight: bold;
+        }
+
+        .anime-item a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer Styling */
+        footer {
+            background-color: #2C3E50;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 1rem;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Explore Popular Anime Shows</h1>
+        <p>Your favorite anime list, just a click away!</p>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="homepage.html">Home</a>
+        <a href="#">Anime List</a>
+    </nav>
+
+    <!-- Main Content Section -->
+    <main>
+        <h2>Featured Anime</h2>
+        
+        <!-- Anime List -->
+        <div class="anime-list">
+            <!-- Anime Item 1 -->
+            <div class="anime-item">
+                <h3>Attack on Titan</h3>
+                <p>A thrilling anime set in a world where humanity is on the brink of extinction, fighting giant creatures called Titans.</p>
+                <a href="attackontitan.html">Learn More</a>
+            </div>
+
+            <!-- Anime Item 2 -->
+            <div class="anime-item">
+                <h3>My Hero Academia</h3>
+                <p>Set in a world where people with superpowers, called "quirks", are the norm, this series follows a young boy striving to be a hero.</p>
+                <a href="myheroacademia.html">Learn More</a>
+            </div>
+
+            <!-- Anime Item 3 -->
+            <div class="anime-item">
+                <h3>One Piece</h3>
+                <p>Follow Monkey D. Luffy and his pirate crew as they search for the greatest treasure in the world, the One Piece.</p>
+                <a href="onepiece.html">Learn More</a>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Anime World. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
